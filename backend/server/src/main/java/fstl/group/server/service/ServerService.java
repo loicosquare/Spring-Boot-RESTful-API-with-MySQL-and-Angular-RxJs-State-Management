@@ -6,9 +6,9 @@ import java.io.IOException;
 import java.util.Collection;
 
 /**
- * @author Get Arrays (https://www.getarrays.io/)
+ * @author Loic Sanou
  * @version 1.0
- * @since 9/4/2021
+ * @since 25/06/2022
  */
 public interface ServerService {
     Server create(Server server);

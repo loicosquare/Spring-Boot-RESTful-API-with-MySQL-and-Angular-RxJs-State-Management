@@ -11,9 +11,9 @@ import java.util.Map;
 import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL;
 
 /**
- * @author Get Arrays (https://www.getarrays.io/)
+ * @author Loic Sanou
  * @version 1.0
- * @since 9/4/2021
+ * @since 25/06/2022
  */
 
 @Data

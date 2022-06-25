@@ -14,9 +14,9 @@ import javax.validation.constraints.NotEmpty;
 import static javax.persistence.GenerationType.AUTO;
 
 /**
- * @author Get Arrays (https://www.getarrays.io/)
+ * @author Loic Sanou
  * @version 1.0
- * @since 9/4/2021
+ * @since 25/06/2022
  */
 
 @Entity
