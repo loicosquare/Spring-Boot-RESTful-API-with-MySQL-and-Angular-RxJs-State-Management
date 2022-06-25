@@ -13,6 +13,12 @@ import javax.validation.constraints.NotEmpty;
 
 import static javax.persistence.GenerationType.AUTO;
 
+/**
+ * @author Get Arrays (https://www.getarrays.io/)
+ * @version 1.0
+ * @since 9/4/2021
+ */
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -22,7 +28,7 @@ public class Server {
     @GeneratedValue(strategy = AUTO)
     private Long id;
     @Column(unique = true)
-    @NotEmpty(message = "Ip address cannot be empty or null")
+    @NotEmpty(message = "IP Address cannot be empty or null")
     private String ipAddress;
     private String name;
     private String memory;
