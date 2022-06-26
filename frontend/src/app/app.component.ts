@@ -40,7 +40,7 @@ export class AppComponent implements OnInit {
           dataState: DataState.LOADED_STATE,
           appData: {
             ...response,
-            data: { servers: response.data.servers.reverse() },
+            data: { servers: response.data.servers.reverse() }, //pour afficher trier les données des plus récentes aux plus anciennes.
           },
         };
       }),
@@ -84,6 +84,7 @@ export class AppComponent implements OnInit {
     this.appState$ = this.serverService.save$(serverForm.value as Server).pipe(
       map((response) => {
         this.dataSubject.next({
+          //pour changer les informations dans l'objet après avoir ajouté.
           ...response,
           data: {
             servers: [
